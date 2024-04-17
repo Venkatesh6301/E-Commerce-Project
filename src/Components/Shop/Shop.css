@@ -1,0 +1,84 @@
+.banner{
+     background-image:url("https://www.jiomart.com/images/product/original/rvwl506j0h/rylan-plastic-non-ticking-classic-digital-wall-clock-8-x-3-8-x-5-centimeters-product-images-orvwl506j0h-p601439831-3-202305130013.jpg?im=Resize=(1000,1000)");
+     background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding-top: 300px;  
+}
+
+ .shop-heading{
+    display: flex;
+    justify-content: space-between;
+} 
+ .shop-heading div:nth-child(2) span {
+    position: relative;
+    left: -20px;
+} 
+ .shop-layout{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    background-color: rgb(219,235,241);
+    align-items: center;
+    margin-top: 20px;
+} 
+ .shop-card{
+    width: 300px;
+    height: 220px;
+    padding: 20px;
+    border: 1px solid rgb(226,221,221);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white; 
+}
+ .shop-card:hover{
+    box-shadow: 0 2px 10px 2px black;
+    cursor: pointer;
+} 
+ .shop-image img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+.shop-image p{
+    background-color: rgb(14,14,87);
+    color: white;
+    border-radius: 15px;
+    width: 65px;
+}
+.shop-details{
+    text-decoration: none;
+    text-align: left;
+    text-align: center;
+} 
+ .shop-details p:nth-child(1){
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+} 
+ .shop-detail-p2{
+    font-weight: bold;
+    font-size: x-large;
+    text-align: left;
+} 
+ .shop-detail-last-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+.shop-detail-last-part button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; 
+} 
+.button{
+    margin-right: 5px;
+    padding-right: 5px;
+    text-align: left;
+    font-size: medium;
+ }
+ .CiSearch{
+    position: relative;
+    left: -50px;
+ }

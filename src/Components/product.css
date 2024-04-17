@@ -1,0 +1,125 @@
+.product-layout{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 50% 60%;
+    justify-content: space-around;
+}
+.product-image img{
+    height: 400px;
+    width: 600px;
+    margin-top: 30px;
+    padding-right: 60px;
+}
+.product-detail{
+    text-align: left;
+    margin-top: 100px;
+}
+.starts{
+    color: gold;
+    position: relative;
+    right: 5px;
+}
+.product-detail p:nth-child(1){
+    font-size: xx-large;
+    font-weight: 600;
+}
+.price{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.price span:nth-child(2){
+    background-color: rgb(179,206,61);
+}
+.buttons-1{
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    margin-top: 25px;
+}
+.buttons-2{
+    border-radius: 10px;
+    height: 50px;
+    width: 130px;
+    background-color: rgb(27,27,71);
+    border: 1px solid rgb(27,27,71);
+    color: white;
+    margin-top: 15px;
+}
+.Description{
+    margin-top: 100px;
+}
+.Description span{
+    display: flex;
+    padding: 0px 50px;
+    font-weight: bold;
+    text-align: left;
+    align-items: left;
+    gap: 50px;
+    color: rgb(10,0,0);
+}
+.Description{
+    text-align: left;
+    padding: 20px 50px;
+}
+.similaritem-heading{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(197,191,191);
+}
+.similaritem-layout{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    background-color: rgb(197,191,191);
+}
+.similaritem-img img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+.similaritem-card{
+    width: 300px;
+    height: 420px;
+    padding: 20px;
+    border: 1px solid rgb(226,221,221);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+.similaritem-detail{
+    text-align: left;
+}
+.similaritem-detail p:nth-child(1){
+    font-weight: bold;
+}
+.similaritem-detail-p2{
+    font-weight: bold;
+    font-size: x-large;
+}
+.similaritem-detail-span{
+    align-items: left;
+}
+.similaritem-card:hover{
+    box-shadow: 0 2px 10px 2px black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
